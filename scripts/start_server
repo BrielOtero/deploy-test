@@ -1,2 +1,2 @@
 #!/bin/bash
-mv build/ /var/www/html
+sudo mv build/ /var/www/html
