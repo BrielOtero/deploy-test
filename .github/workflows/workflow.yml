@@ -9,14 +9,7 @@ jobs:
     steps:
       # Step 1
       - uses: actions/checkout@v2
-      - name: Update instance
-        run: sudo apt update
-      - name: Upgrade instance
-        run: sudo apt upgrade  
-      - name: Install apache
-        run: sudo apt install apache2 -y
-      - name: Build
-        run: sudo cp build/ /var/www/html
+      
    
 
   continuous-deployment:
