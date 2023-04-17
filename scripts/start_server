@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo cp build/ /var/www/html
+service httpd start

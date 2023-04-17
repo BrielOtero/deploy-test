@@ -4,3 +4,4 @@ sudo apt update
 sudo apt install apache2 -y
 cd Deploy-Test/
 git pull
+sudo cp build/ /var/www/html
